@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 
         Startseite startseiteF = new Startseite();
-        ACP acpF = new ACP();
         Info infoF = new Info();
         Settings settingsF = new Settings();
         FragmentManager manager = getSupportFragmentManager();

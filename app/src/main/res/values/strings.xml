@@ -2,9 +2,10 @@
     <string name="app_name">MasterOf13FPS</string>
     <string name="open">Öffnen</string>
     <string name="close">Schließen</string>
-    <string name="settings_darkmode">Dunkler Modus</string>
+    <string name="settings_lightmode">Heller Appmodus</string>
     <string name="settings">Einstellungen</string>
     <string name="credits">Credits</string>
     <string name="author">by CrazyMemeCoke</string>
-    <string name="version">Version: 1.2</string>
+    <string name="version">Version: 1.3</string>
+    <string name="settings_bottomnavigation">Navigation am unteren Rand</string>
 </resources>
