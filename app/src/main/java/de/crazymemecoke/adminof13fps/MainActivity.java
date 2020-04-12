@@ -26,6 +26,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         actionBarDrawerToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         navigationView.setNavigationItemSelectedListener(this);
+
+        Startseite startseiteF = new Startseite();
+        FragmentManager manager = getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.flcontent, startseiteF).commit();
     }
 
     @Override
@@ -44,15 +48,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Startseite startseiteF = new Startseite();
         ACP acpF = new ACP();
         Info infoF = new Info();
+        Settings settingsF = new Settings();
         FragmentManager manager = getSupportFragmentManager();
 
         switch (menuItem.getItemId()) {
-            case R.id.start:
+            case R.id.forum:
                 manager.beginTransaction().replace(R.id.flcontent, startseiteF).commit();
                 drawerLayout.closeDrawers();
                 break;
-            case R.id.info:
+            case R.id.credits:
                 manager.beginTransaction().replace(R.id.flcontent, infoF).commit();
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.settings:
+                manager.beginTransaction().replace(R.id.flcontent, settingsF).commit();
                 drawerLayout.closeDrawers();
                 break;
         }

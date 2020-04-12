@@ -5,11 +5,28 @@
     android:layout_height="match_parent"
     tools:context=".Settings">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/settings"
+        android:textAlignment="center"
+        android:textSize="35sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/darker_gray" />
+
     <Switch
         android:id="@+id/settings_darkmode"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:text="Dark Mode"
-        android:textSize="40dp" />
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp"
+        android:enabled="false"
+        android:text="@string/settings_darkmode"
+        android:textSize="30sp" />
 
 </FrameLayout>
