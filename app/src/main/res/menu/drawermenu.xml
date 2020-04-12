@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_main"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/start"
+            android:icon="@drawable/home"
+            android:title="Startseite"></item>
+    </group>
+    <group
+        android:id="@+id/menu_acp"
+        android:checkableBehavior="none">
+        <item
+            android:enabled="false"
+            android:title="Benutzer verwalten"></item>
+        <item
+            android:enabled="false"
+            android:title="Sperren verwalten"></item>
+        <item
+            android:enabled="false"
+            android:title="Elemente verwalten"></item>
+        <item
+            android:enabled="false"
+            android:title="Prefixe verwalten"></item>
+        <item
+            android:enabled="false"
+            android:title="Freischaltungsliste"></item>
+        <item
+            android:enabled="false"
+            android:title="Meldungen"></item>
+    </group>
+    <group
+        android:id="@+id/menu_info"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/info"
+            android:title="Informationen"></item>
+    </group>
+</menu>
