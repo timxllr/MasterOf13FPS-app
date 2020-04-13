@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darkBackground"
-    tools:context=".Settings">
+    tools:context=".ACP">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/settings"
+        android:text="@string/acp"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="35sp" />
@@ -21,26 +21,12 @@
         android:layout_marginTop="50dp"
         android:background="@android:color/darker_gray" />
 
-    <Switch
-        android:id="@+id/settings_lightmode"
-        android:layout_width="match_parent"
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="60dp"
         android:enabled="false"
-        android:text="@string/settings_lightmode"
-        android:textColor="@android:color/white"
-        android:textSize="30sp" />
-
-    <Switch
-        android:id="@+id/settings_bottomnavigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="95dp"
-        android:enabled="false"
-        android:text="@string/settings_bottomnavigation"
-        android:textColor="@android:color/white"
-        android:textSize="30sp" />
+        android:text="@string/acp_banlist" />
 
 </FrameLayout>

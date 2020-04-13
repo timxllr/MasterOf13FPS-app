@@ -6,37 +6,21 @@
         <item
             android:id="@+id/forum"
             android:title="Forum"></item>
-    </group>
-    <group
-        android:id="@+id/menu_acp"
-        android:checkableBehavior="none">
         <item
-            android:enabled="false"
-            android:title="Benutzer verwalten"></item>
-        <item
-            android:enabled="false"
-            android:title="Sperren verwalten"></item>
-        <item
-            android:enabled="false"
-            android:title="Elemente verwalten"></item>
-        <item
-            android:enabled="false"
-            android:title="Präfixe verwalten"></item>
-        <item
-            android:enabled="false"
-            android:title="Freischaltungsliste"></item>
-        <item
-            android:enabled="false"
-            android:title="Meldungen"></item>
+            android:id="@+id/acp"
+            android:title="@string/acp"></item>
     </group>
     <group
         android:id="@+id/menu_other"
         android:checkableBehavior="none">
         <item
             android:id="@+id/settings"
-            android:title="Einstellungen"></item>
+            android:title="@string/settings"></item>
         <item
             android:id="@+id/credits"
-            android:title="Credits"></item>
+            android:title="@string/credits"></item>
+        <item
+            android:id="@+id/changelog"
+            android:title="@string/changelog"></item>
     </group>
 </menu>

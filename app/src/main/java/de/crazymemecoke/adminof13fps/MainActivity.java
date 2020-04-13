@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Startseite startseiteF = new Startseite();
         Info infoF = new Info();
         Settings settingsF = new Settings();
+        Changelog changelogF = new Changelog();
+        ACP acpF = new ACP();
         FragmentManager manager = getSupportFragmentManager();
 
         switch (menuItem.getItemId()) {
@@ -61,6 +63,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.settings:
                 manager.beginTransaction().replace(R.id.flcontent, settingsF).commit();
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.changelog:
+                manager.beginTransaction().replace(R.id.flcontent, changelogF).commit();
+                drawerLayout.closeDrawers();
+                break;
+            case R.id.acp:
+                manager.beginTransaction().replace(R.id.flcontent, acpF).commit();
                 drawerLayout.closeDrawers();
                 break;
         }
