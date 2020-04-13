@@ -62,7 +62,7 @@ public class Startseite extends Fragment {
         WebView webView;
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_startseite, container, false);
-        webView = v.findViewById(R.id.webView);
+        webView = v.findViewById(R.id.webView_forum);
         webView.setWebViewClient(new WebViewClient());
         webView.loadUrl("https://masterof13fps.de");
 

@@ -6,7 +6,7 @@
     tools:context=".Startseite">
 
     <WebView
-        android:id="@+id/webView"
+        android:id="@+id/webView_forum"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </FrameLayout>

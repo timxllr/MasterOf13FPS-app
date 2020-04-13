@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#201f24</color>
     <color name="colorAccent">#E65100</color>
     <color name="darkBackground">#212121</color>
+    <color name="changelogTitle">#29b6f6</color>
+    <color name="changelogAdded">#76ff03</color>
+    <color name="changelogNeutral">#ff6f00</color>
+    <color name="changelogRemoved">#a30000</color>
 </resources>

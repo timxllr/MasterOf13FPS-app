@@ -33,28 +33,18 @@
         android:layout_marginTop="230dp"
         android:background="@android:color/darker_gray" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="240dp"
-        android:text="@string/version"
-        android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="35sp" />
-
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="250dp"
         android:background="@drawable/authoricon" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="455dp"
         android:text="@string/author"
         android:textAlignment="center"
         android:textColor="@android:color/white"
