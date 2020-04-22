@@ -2,12 +2,11 @@
     <string name="app_name">MasterOf13FPS</string>
     <string name="open">Öffnen</string>
     <string name="close">Schließen</string>
-    <string name="settings_lightmode">Heller Appmodus</string>
-    <string name="settings">Einstellungen</string>
     <string name="credits">Credits</string>
     <string name="author">by CrazyMemeCoke</string>
-    <string name="settings_bottomnavigation">Navigation am unteren Rand</string>
+    <string name="settings">Einstellungen</string>
+    <string name="settings_lightmode">Light-Mode</string>
+    <string name="settings_bottomnavigation">Bottom Navigation</string>
     <string name="changelog">Änderungen</string>
     <string name="acp">Admin Control Panel</string>
-    <string name="acp_banlist">Bannliste</string>
 </resources>
